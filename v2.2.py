@@ -133,6 +133,11 @@
         "Verification timeout.",
         "验证超时"
     ],
+    # Image
+    "verify_complete_image": [
+        "Please complete the following image captcha.",
+        "请完成以下图像辨识验证"
+    ],
     # Sticker
     "verify_send_sticker": [
         "Please send a sticker to me.",
@@ -491,6 +496,10 @@
     "flood_act_set_none": [
         "Nothing will do to users in flood period.",
         "所有在轰炸期间的用户将不会被进行任何处理"
+    ],
+    "flood_act_set_delete": [
+        "All flooded users will be deleted and reported spamming.",
+        "所有轰炸的用户将会被举报并删除聊天"
     ],
     # endregion
 
