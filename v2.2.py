@@ -335,7 +335,7 @@
     ],
     "stats_flooding": [
         bold(f"This account is being flooding, count: {code('%i')}"),
-        bold("此账号正在被轰炸, 轰炸人数: {code('%i)}")
+        bold(f"此账号正在被轰炸, 轰炸人数: {code('%i')}")
     ],
     # endregion
 
