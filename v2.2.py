@@ -326,12 +326,16 @@
 
     # region Stats
     "stats_display": [
-        "has verified %i users in total.\nSuccess: %i\nBlocked: %i",
-        "已进行验证 %i 次\n验证通过: %i 次\n拦截: %i 次"
+        f"has verified {bold('%i')} users in total.\nSuccess: {bold('%i')}\nBlocked: {bold('%i')}\n\nCurrent Status:\nVerifing: {bold('%i')}\nBanning: {bold('%i')}\nBoom Times: {bold('%i')}",
+        f"已进行验证 {bold('%i')} 次\n验证通过: {bold('%i')} 次\n拦截: {bold('%i')} 次\n\n目前状态:\n正在验证: {bold('%i')} 人\n正在封禁: {bold('%i')} 人\n被轰炸次数: {bold('%i')} 次"
     ],
     "stats_reset": [
         "Statistics has been reset.",
         "已重置统计"
+    ],
+    "stats_flooding": [
+        bold(f"This account is being flooding, count: {code('%i')}"),
+        bold("此账号正在被轰炸, 轰炸人数: {code('%i)}")
     ],
     # endregion
 
