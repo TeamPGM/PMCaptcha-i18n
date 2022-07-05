@@ -109,6 +109,10 @@
         "User %s has been %s.",
         "已对用户 %s 执行`%s`操作"
     ],
+    "verify_log_passed": [
+        "User %s has passed the %s captcha.",
+        "用户 %s 已通过`%s`验证"
+    ],
     "verify_challenge": [
         "Please answer this question to prove you are human (1 chance)",
         "请回答这个问题证明您不是机器人 (一次机会)"
@@ -124,6 +128,10 @@
     "verify_failed": [
         "Verification failed.",
         "验证失败"
+    ],
+    "verify_timeout": [
+        "Verification timeout.",
+        "验证超时"
     ],
     # Sticker
     "verify_send_sticker": [
